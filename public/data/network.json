@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "label": "ილია ჭავჭავაძე",
+      "x": 0,
+      "y": 2,
+      "size": 400,
+      "color": "blue"
+    },
+    {
+      "id": "n1",
+      "label": "მწერლობა",
+      "x": 2,
+      "y": 1.5,
+      "size": 100,
+      "color": "orange"
+    },
+    {
+      "id": "n2",
+      "label": "თანამოაზრეები",
+      "x": 1.5,
+      "y": 1.5,
+      "size": 100,
+      "color": "red"
+    },
+    {
+        "id": "n3",
+        "label": "თანამემამულეები",
+        "x": 2,
+        "y": 2.5,
+        "size": 100,
+        "color": "teal"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "n0",
+      "target": "n1",
+      "color": "pink"
+    },
+    {
+      "id": "e1",
+      "source": "n0",
+      "target": "n1",
+      "color": "pink"
+    },
+    {
+      "id": "e2",
+      "source": "n0",
+      "target": "n2",
+      "color": "pink"
+    },
+    {
+      "id": "e3",
+      "source": "n0",
+      "target": "n3",
+      "color": "pink"
+    }
+  ]
+}
